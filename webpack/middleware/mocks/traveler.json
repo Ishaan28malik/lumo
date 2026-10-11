@@ -1,0 +1,549 @@
+[
+  {
+    "uid": "835ea2e0-fe19-42d3-809b-b6aeaeb75d3f",
+    "booking_reference": "ABCDEF",
+    "name": "Trip to somewhere",
+    "summary": {
+      "markdown": "# Markdown syntax guide\n## Headers\n\n# This is a Heading h1\n## This is a Heading h2\n###### This is a Heading h6\n\n## Emphasis\n\n*This text will be italic*\n_This will also be italic_\n\n**This text will be bold**\n__This will also be bold__\n\n_You **can** combine them_\n\n## Lists\n\n### Unordered\n\n* Item 1\n* Item 2\n* Item 2a\n* Item 2b\n"
+    },
+    "org": {
+      "path": ".tarams.apac.india.blr",
+      "name": "arams India (Bengaluru)"
+    },
+    "events": [
+      {
+        "uid": "5113b8a5-4f4f-4beb-890e-b966e1e6861e",
+        "name": "Global sales conference"
+      },
+      {
+        "uid": "4261fa98-1576-4950-966d-87ec131aa1d0",
+        "name": "Investor conference Germany"
+      }
+    ],
+    "group": {
+      "uid": "884b6b58-9836-4481-b12c-380a15b7b0e0",
+      "name": "Tarams sales group trip"
+    },
+    "hotels": [
+      {
+        "confirmation": "KJHKJK",
+        "details": "Hilton Garden Inn",
+        "location": "New York",
+        "check_in": "2024-05-09",
+        "check_out": "2024-05-10"
+      },
+      {
+        "confirmation": "kjhk98798",
+        "details": "Holiday Inn",
+        "location": "Frankfurt",
+        "check_in": "2024-05-10",
+        "check_out": "2024-05-12"
+      }
+    ],
+    "ground_transport": [
+      {
+        "confirmation": "lkj-098",
+        "details": "Some Limo Service +1 (345) 345 3458",
+        "start_date": "2024-05-09",
+        "end_date": null
+      },
+      {
+        "confirmation": "kjh9kjg",
+        "details": "Hertz car rental - Frankfurt airport",
+        "start_date": "2024-05-10",
+        "end_date": "2024-05-11"
+      }
+    ],
+    "travelers": [
+      {
+        "uid": "1d864954-3d50-43dd-86ed-df98296d8992",
+        "name": " John Doe",
+        "org": "Tarams Technologies",
+        "email": "some@some.com",
+        "primary": true
+      },
+      {
+        "uid": "2ba3afe9-683b-47ea-b15f-0d200e2d0fc4",
+        "name": "Pax Name 21",
+        "email": "sdsdf@some.com",
+        "primary": false
+      },
+      {
+        "uid": "56e4b299-7447-4e34-a39f-c60c6f8cce7a",
+        "name": "Pax Name 3",
+        "email": "sdsdfsdf@some.com",
+        "primary": false
+      }
+    ],
+    "trips": [
+      {
+        "uid": "bb58c05e-b06d-4363-8da7-6c5ae5a0b925",
+        "sequence": "1/3",
+        "name": "BOS > FRA May-09",
+        "status": "past",
+        "disruption_summary": {
+          "risk": {
+            "score": 4.2,
+            "level": "SEVERE"
+          },
+          "cancelled": false,
+          "delay": 29,
+          "misconnect": true,
+          "waiver": false
+        },
+        "flights": [
+          {
+            "flight": {
+              "id": "20240509AA123BLRDXB",
+              "airline": {
+                "code": "EK",
+                "name": "Emirates"
+              },
+              "operating_airline": {
+                "code": "AA",
+                "name": "American Airlines"
+              },
+              "number": 123,
+              "aircraft_type": {
+                "code": "388",
+                "description": "A380"
+              },
+              "departure": {
+                "code": "BLR",
+                "name": "Kempegowda Intl",
+                "city": "Bengaluru",
+                "coordinates": {
+                  "latitude": 13.1988888888888,
+                  "longitude": 77.7055555555555
+                }
+              },
+              "arrival": {
+                "code": "DXB",
+                "name": "Dubai International",
+                "city": "Dubai",
+                "coordinates": {
+                  "latitude": 25.2527777777777,
+                  "longitude": 55.3644444444444
+                }
+              }
+            },
+            "prediction": {
+              "risk": {
+                "score": 9.2,
+                "level": "SEVERE"
+              },
+              "probability": [0.3, 0.1, 0.4, 0.2],
+              "reason": "Flight may be delayed by a delayed inbound flight"
+            },
+            "connecting_to": {
+              "id": "20240509LH123DXBFRA",
+              "connection_time": {
+                "scheduled": 180,
+                "minimum": 120,
+                "latest": 29
+              },
+              "probability_misconnect": 0.98
+            },
+            "status": {
+              "cancelled": false,
+              "diverted": false,
+              "text": "Delayed",
+              "departure": {
+                "scheduled": "2024-05-09T08:00:00+06:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": 123,
+                "terminal": "T1",
+                "gate": "7"
+              },
+              "arrival": {
+                "scheduled": "2024-05-09T08:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": -12,
+                "terminal": "T3",
+                "gate": "7",
+                "baggabe": "B6"
+              }
+            }
+          },
+          {
+            "flight": {
+              "id": "20240509LH123DXBFRA",
+              "airline": {
+                "code": "LH",
+                "name": "Lufthansa"
+              },
+              "operating_airline": {
+                "code": "EK",
+                "name": "Emirates"
+              },
+              "number": 123,
+              "aircraft_type": {
+                "code": "388",
+                "description": "A380"
+              },
+              "departure": {
+                "code": "DXB",
+                "name": "Dubai International",
+                "city": "Dubai",
+                "coordinates": {
+                  "latitude": 25.2527777777777,
+                  "longitude": 55.3644444444444
+                }
+              },
+              "arrival": {
+                "code": "FRA",
+                "name": "Frankfurt International Apt",
+                "city": "Frankfurt",
+                "coordinates": {
+                  "latitude": 50.0330555555555,
+                  "longitude": 8.57055555555555
+                }
+              }
+            },
+            "prediction": {
+              "risk": {
+                "score": 3.1,
+                "level": "MODERATE"
+              },
+              "probability": [0.3, 0.4, 0.1, 0.2],
+              "reason": "Flight may be delayed by a airport conditions at Frankfurt"
+            },
+            "connecting_to": null,
+            "status": {
+              "cancelled": false,
+              "diverted": false,
+              "text": "Scheduled",
+              "departure": {
+                "scheduled": "2024-05-09T10:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": 123,
+                "terminal": "T1",
+                "gate": "7"
+              },
+              "arrival": {
+                "scheduled": "2024-05-09T10:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": -12,
+                "terminal": "T3",
+                "gate": "7",
+                "baggabe": "B6"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "uid": "9462e36c-765a-4f32-881f-e5f9f06fc783",
+        "sequence": "2/3",
+        "name": "FRA > IAD May-10",
+        "status": "active",
+        "disruption_summary": {
+          "risk": {
+            "score": 6.8,
+            "level": "SEVERE"
+          },
+          "cancelled": true,
+          "delay": 55,
+          "misconnect": true,
+          "waiver": true
+        },
+        "flights": [
+          {
+            "flight": {
+              "id": "20240509AA123BLRDXB",
+              "airline": {
+                "code": "EK",
+                "name": "Emirates"
+              },
+              "operating_airline": {
+                "code": "AA",
+                "name": "American Airlines"
+              },
+              "number": 123,
+              "aircraft_type": {
+                "code": "388",
+                "description": "A380"
+              },
+              "departure": {
+                "code": "FRA",
+                "name": "Kempegowda Intl",
+                "city": "Frankfurt",
+                "coordinates": {
+                  "latitude": 13.1988888888888,
+                  "longitude": 77.7055555555555
+                }
+              },
+              "arrival": {
+                "code": "MAD",
+                "name": "Dubai International",
+                "city": "Dubai",
+                "coordinates": {
+                  "latitude": 25.2527777777777,
+                  "longitude": 55.3644444444444
+                }
+              }
+            },
+            "prediction": {
+              "risk": {
+                "score": 9.2,
+                "level": "SEVERE"
+              },
+              "probability": [0.3, 0.1, 0.4, 0.2],
+              "reason": "Flight may be delayed by a delayed inbound flight"
+            },
+            "connecting_to": {
+              "id": "20240509LH123DXBFRA",
+              "connection_time": {
+                "scheduled": 180,
+                "minimum": 120,
+                "latest": 29
+              },
+              "probability_misconnect": 0.98
+            },
+            "status": {
+              "cancelled": false,
+              "diverted": false,
+              "text": "Delayed",
+              "departure": {
+                "scheduled": "2024-05-10T09:09:00+05:30",
+                "latest": "2024-05-10T08:09:00+05:30",
+                "delay": 123,
+                "terminal": "T1",
+                "gate": "7"
+              },
+              "arrival": {
+                "scheduled": "2024-05-10T08:09:00+05:30",
+                "latest": "2024-05-10T08:09:00+05:30",
+                "delay": -12,
+                "terminal": "T3",
+                "gate": "7",
+                "baggabe": "B6"
+              }
+            }
+          },
+          {
+            "flight": {
+              "id": "20240509LH123DXBFRA",
+              "airline": {
+                "code": "LH",
+                "name": "Lufthansa"
+              },
+              "operating_airline": {
+                "code": "EK",
+                "name": "Emirates"
+              },
+              "number": 123,
+              "aircraft_type": {
+                "code": "388",
+                "description": "A380"
+              },
+              "departure": {
+                "code": "MAD",
+                "name": "Dubai International",
+                "city": "Dubai",
+                "coordinates": {
+                  "latitude": 25.2527777777777,
+                  "longitude": 55.3644444444444
+                }
+              },
+              "arrival": {
+                "code": "IAD",
+                "name": "Washington DC",
+                "city": "Washington",
+                "coordinates": {
+                  "latitude": 50.0330555555555,
+                  "longitude": 8.57055555555555
+                }
+              }
+            },
+            "prediction": {
+              "risk": {
+                "score": 3.1,
+                "level": "MODERATE"
+              },
+              "probability": [0.3, 0.4, 0.1, 0.2],
+              "reason": "Flight may be delayed by a airport conditions at Frankfurt"
+            },
+            "connecting_to": null,
+            "status": {
+              "cancelled": false,
+              "diverted": false,
+              "text": "Scheduled",
+              "departure": {
+                "scheduled": "2024-05-09T08:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": 123,
+                "terminal": "T1",
+                "gate": "7"
+              },
+              "arrival": {
+                "scheduled": "2024-05-09T08:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": -12,
+                "terminal": "T3",
+                "gate": "7",
+                "baggabe": "B6"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "uid": "59a360fd-826b-405c-b1d9-18d6d61d7bd6",
+        "sequence": "3/3",
+        "name": "IAD > BLR May-11",
+        "status": "past",
+        "disruption_summary": {
+          "risk": {
+            "score": 9.2,
+            "level": "SEVERE"
+          },
+          "cancelled": false,
+          "delay": 200,
+          "misconnect": false,
+          "waiver": false
+        },
+        "flights": [
+          {
+            "flight": {
+              "id": "20240509AA123BLRDXB",
+              "airline": {
+                "code": "EK",
+                "name": "Emirates"
+              },
+              "operating_airline": {
+                "code": "AA",
+                "name": "American Airlines"
+              },
+              "number": 123,
+              "aircraft_type": {
+                "code": "388",
+                "description": "A380"
+              },
+              "departure": {
+                "code": "IAD",
+                "name": "Kempegowda Intl",
+                "city": "Bengaluru",
+                "coordinates": {
+                  "latitude": 13.1988888888888,
+                  "longitude": 77.7055555555555
+                }
+              },
+              "arrival": {
+                "code": "DXB",
+                "name": "Dubai International",
+                "city": "Dubai",
+                "coordinates": {
+                  "latitude": 25.2527777777777,
+                  "longitude": 55.3644444444444
+                }
+              }
+            },
+            "prediction": {
+              "risk": {
+                "score": 9.2,
+                "level": "SEVERE"
+              },
+              "probability": [0.3, 0.1, 0.4, 0.2],
+              "reason": "Flight may be delayed by a delayed inbound flight"
+            },
+            "connecting_to": {
+              "id": "20240509LH123DXBFRA",
+              "connection_time": {
+                "scheduled": 180,
+                "minimum": 120,
+                "latest": 29
+              },
+              "probability_misconnect": 0.98
+            },
+            "status": {
+              "cancelled": false,
+              "diverted": false,
+              "text": "Delayed",
+              "departure": {
+                "scheduled": "2024-05-09T08:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": 123,
+                "terminal": "T1",
+                "gate": "7"
+              },
+              "arrival": {
+                "scheduled": "2024-05-09T08:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": -12,
+                "terminal": "T3",
+                "gate": "7",
+                "baggabe": "B6"
+              }
+            }
+          },
+          {
+            "flight": {
+              "id": "20240509LH123DXBFRA",
+              "airline": {
+                "code": "LH",
+                "name": "Lufthansa"
+              },
+              "operating_airline": {
+                "code": "EK",
+                "name": "Emirates"
+              },
+              "number": 123,
+              "aircraft_type": {
+                "code": "388",
+                "description": "A380"
+              },
+              "departure": {
+                "code": "DXB",
+                "name": "Dubai International",
+                "city": "Dubai",
+                "coordinates": {
+                  "latitude": 25.2527777777777,
+                  "longitude": 55.3644444444444
+                }
+              },
+              "arrival": {
+                "code": "BLR",
+                "name": "Frankfurt International Apt",
+                "city": "Frankfurt",
+                "coordinates": {
+                  "latitude": 50.0330555555555,
+                  "longitude": 8.57055555555555
+                }
+              }
+            },
+            "prediction": {
+              "risk": {
+                "score": 3.1,
+                "level": "MODERATE"
+              },
+              "probability": [0.3, 0.4, 0.1, 0.2],
+              "reason": "Flight may be delayed by a airport conditions at Frankfurt"
+            },
+            "connecting_to": null,
+            "status": {
+              "cancelled": false,
+              "diverted": false,
+              "text": "Scheduled",
+              "departure": {
+                "scheduled": "2024-05-09T08:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": 123,
+                "terminal": "T1",
+                "gate": "7"
+              },
+              "arrival": {
+                "scheduled": "2024-05-09T08:09:00+05:30",
+                "latest": "2024-05-09T08:09:00+05:30",
+                "delay": -12,
+                "terminal": "T3",
+                "gate": "7",
+                "baggabe": "B6"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

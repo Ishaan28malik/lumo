@@ -1,0 +1,122 @@
+[
+  {
+    "uid": "835ea2e0-fe19-42d3-809b-b6aeaeb75d3f",
+    "name": "Global Sales Conference (April 2023), Boston USA",
+    "baseUrl": "/events/",
+    "category": "Events"
+  },
+  {
+    "uid": "a9d01c2a-ec2f-4b08-87bb-8ef76be7fa3a",
+    "name": "Tech Meetup (June 2023), New York",
+    "baseUrl": "/events/",
+    "category": "Events"
+  },
+  {
+    "uid": "ee342b44-d8c5-4c0e-90fc-8b1b5d908165",
+    "name": "Leadership Summit (September 2023), London",
+    "baseUrl": "/events/",
+    "category": "Events"
+  },
+  {
+    "uid": "eb1a9e43-5f1f-4e7f-87dd-91cbda74b63b",
+    "name": "Marketing Workshop (October 2023), Sydney",
+    "baseUrl": "/events/",
+    "category": "Events"
+  },
+  {
+    "uid": "7f3b9e83-2cd2-4c79-89b5-a1a97123b6a9",
+    "name": "Software Development Conference (December 2023), Tokyo",
+    "baseUrl": "/events/",
+    "category": "Events"
+  },
+  {
+    "uid": "bb58c05e-b06d-4363-8da7-6c5ae5a0b925",
+    "name": "Tarams Sales Group Trip",
+    "baseUrl": "/group/",
+    "category": "Group"
+  },
+  {
+    "uid": "db1a9e13-5a6f-4e2e-8d5e-91cfda7db63c",
+    "name": "Engineering Team Outing",
+    "baseUrl": "/group/",
+    "category": "Group"
+  },
+  {
+    "uid": "fc1bfe93-9b3e-4d56-9c3c-97bfdb7c73da",
+    "name": "Finance Team Strategy Retreat",
+    "baseUrl": "/group/",
+    "category": "Group"
+  },
+  {
+    "uid": "a8e17b33-4f4b-4e2f-9d6e-97bf6d7c73db",
+    "name": "Design Team Brainstorming Session",
+    "baseUrl": "/group/",
+    "category": "Group"
+  },
+  {
+    "uid": "fd2e1c83-6f2b-4f2e-8e3e-93cfdb7d63fc",
+    "name": "HR Team Offsite",
+    "baseUrl": "/group/",
+    "category": "Group"
+  },
+  {
+    "uid": "d1b2c6f3-1d72-42ee-89f6-bd786be9cbbb",
+    "name": "John Doe",
+    "baseUrl": "/traveler/",
+    "category": "Traveler"
+  },
+  {
+    "uid": "eb1b9e73-1c6d-4f2d-87c5-91cfdb7f63cb",
+    "name": "Jane Smith",
+    "baseUrl": "/traveler/",
+    "category": "Traveler"
+  },
+  {
+    "uid": "fb1cfe63-3c3f-4c3d-9c7e-87cfeb7c63db",
+    "name": "Michael Johnson",
+    "baseUrl": "/traveler/",
+    "category": "Traveler"
+  },
+  {
+    "uid": "cb2a8e93-5f7f-4e7f-8e7e-83cfdb7c83dc",
+    "name": "Emily Davis",
+    "baseUrl": "/traveler/",
+    "category": "Traveler"
+  },
+  {
+    "uid": "eb1b9e73-1c6d-4f2d-87c5-91cfdb7f63cb",
+    "name": "Robert Wilson",
+    "baseUrl": "/traveler/",
+    "category": "Traveler"
+  },
+  {
+    "uid": "dabceughik-1d734-53e-89f6-bd4567893",
+    "name": "Waiver",
+    "baseUrl": "/waiver/",
+    "category": "Waiver"
+  },
+  {
+    "uid": "fb1fe63-3e7f-4e4f-9d7e-87cfe7c3db",
+    "name": "Travel Waiver",
+    "baseUrl": "/waiver/",
+    "category": "Waiver"
+  },
+  {
+    "uid": "db1ce93-4f7f-4f7e-8e7e-83cfec7c8dc",
+    "name": "COVID-19 Waiver",
+    "baseUrl": "/waiver/",
+    "category": "Waiver"
+  },
+  {
+    "uid": "eb1b9e93-5e6d-4f2d-8e5e-93cfdb6f3cb",
+    "name": "Health Waiver",
+    "baseUrl": "/waiver/",
+    "category": "Waiver"
+  },
+  {
+    "uid": "eb1b9e73-1c6d-4f2d-87c5-91cfdb7f63cb",
+    "name": "Permission Waiver",
+    "baseUrl": "/waiver/",
+    "category": "Waiver"
+  }
+]

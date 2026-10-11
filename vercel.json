@@ -1,0 +1,18 @@
+{
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "functions": {
+    "api/mock-api.js": {
+      "includeFiles": "webpack/middleware/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/mock-api/:path*",
+      "destination": "/api/mock-api?path=:path*"
+    },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

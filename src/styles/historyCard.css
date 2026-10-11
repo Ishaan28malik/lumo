@@ -1,0 +1,243 @@
+.hist-chart-cont {
+  --chart-col-height: 12px;
+  --chart-col-height-2: calc(var(--chart-col-height) * 2);
+  --chart-col-height-3: calc(var(--chart-col-height) * 3);
+  --chart-col-height-4: calc(var(--chart-col-height) * 4);
+}
+
+.hist-chart-cont .chart-list-item {
+  display: inline-block;
+  padding: 1px;
+}
+
+.hist-chart-cont .chart-list-item div {
+  width: 100%;
+}
+
+.hist-chart-cont ul {
+  list-style-type: none;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.hist-chart-cont .scroll-par {
+  height: 100%;
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hist-chart-cont .scroll-par .scroll {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  direction: rtl;
+}
+
+.hist-chart-cont .d-hist-chart {
+  overflow-x: hidden;
+  padding-bottom: 20px;
+}
+
+.hist-chart-cont .d-hist-chart .chart-elem {
+  display: inline-block;
+  margin: 0px 1px;
+  position: relative;
+  text-align: center;
+  vertical-align: bottom;
+  border-radius: 1.5px;
+  cursor: pointer;
+}
+
+.hist-chart-cont .d-hist-chart .less-30 {
+  height: var(--chart-col-height);
+  background-color: #14cc99;
+  /* Green for < 30 min */
+}
+
+.hist-chart-cont .d-hist-chart .less-60 {
+  height: var(--chart-col-height-2);
+  background-color: #2da1d7;
+  /* Blue for 30-60 min */
+}
+
+.hist-chart-cont .d-hist-chart .less-120 {
+  height: var(--chart-col-height-3);
+  background-color: #924df6;
+  /* Magenta for 1-2 hr */
+}
+
+.hist-chart-cont .d-hist-chart .high-120 {
+  height: var(--chart-col-height-4);
+  background-color: #df2eab;
+  /* Red for 2+ hr */
+}
+
+.hist-chart-cont .d-hist-chart .no-data {
+  height: var(--chart-col-height);
+  background-color: #ccc;
+  /* Gray for no data */
+}
+
+.hist-chart-cont .float-left {
+  float: left;
+}
+
+.hist-chart-cont .float-right {
+  float: right;
+}
+
+.hist-chart-cont .delay-history {
+  color: #222222;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.hist-chart-cont .past-60-days {
+  color: #888888;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.hist-chart-cont .history-footer {
+  margin: 15px 0px 0px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 20px 0px 0px 0px;
+}
+
+.hist-chart-cont .history-footer .left-content {
+  float: left;
+}
+
+.hist-chart-cont .history-footer .right-content {
+  float: right;
+}
+
+.hist-chart-cont .history-footer .right-align {
+  float: right;
+}
+
+.hist-chart-cont .extra-legend {
+  padding: 0px;
+}
+
+.ch-legend {
+  font-size: 11px;
+  color: #888888;
+}
+
+.ch-legend .legend-round {
+  border-radius: 50%;
+  width: 6px;
+  height: 6px;
+}
+
+.ch-legend .left-dot {
+  padding-left: 15px;
+  padding-right: 0px;
+  text-align: right;
+}
+
+.ch-legend .left-dot .legend-round {
+  display: inline-block;
+}
+
+.ch-legend .right-elem {
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+.ch-tooltip {
+  display: none;
+}
+
+.ch-width {
+  width: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ch-width {
+    width: calc(100% / 60);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .ch-width {
+    width: calc(100% / 60);
+  }
+
+  .ch-tooltip {
+    display: block;
+    height: 100px;
+    width: 140px;
+    position: absolute;
+    top: -45px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow:
+      rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px,
+      rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px,
+      rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 10;
+    padding: 15px;
+  }
+
+  .ch-tooltip .date-cont {
+    font-size: 11px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding-bottom: 10px;
+  }
+
+  .ch-tooltip .val-cont {
+    color: #222222;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ch-tooltip .delay-txt {
+    color: #888888;
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hist-chart-cont .history-footer .left-content {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .hist-chart-cont .history-footer .right-content {
+    display: block;
+    float: left;
+  }
+
+  .hist-chart-cont .history-footer .right-content .ch-legend .left-dot {
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+
+  .hist-chart-cont .scroll-par {
+    overflow: auto;
+  }
+
+  .hist-chart-cont .d-hist-chart {
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hist-chart-cont .history-footer .right-content .float-left {
+    width: 50%;
+  }
+
+  .hist-chart-cont .history-footer .right-content .ch-legend .left-dot {
+    text-align: left;
+    padding-bottom: 15px;
+  }
+}

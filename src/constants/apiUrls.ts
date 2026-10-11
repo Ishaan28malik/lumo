@@ -1,0 +1,16 @@
+export const baseURL = '/mock-api/';
+export const userInfoApiUrl = 'v1/navigator/userinfo';
+export const bookingInfoApiUrl = 'v1/navigator/trips';
+export const tripDetailsApiUrl = 'v1/navigator/tripDetails';
+export const flightDetailsApiUrl = 'v1/navigator/flights';
+export const flightSearchApiUrl = 'v1/navigator/flights/search';
+export const queuesDetailsApiUrl = 'v1/navigator/messages';
+export const eventApiUrl = '/v1/navigator/events';
+export const travelerDetailsApiUrl = '/v1/navigator/traveler';
+export const groupDetailsApiUrl = '/v1/navigator/groups';
+export const summaryStatsApiUrl = '/v1/navigator/summarystats';
+export const searchApiUrl = '/v1/navigator/search';
+export const airportsApiUrl = '/v1/navigator/airports';
+export const airlinesApiUrl = '/v1/navigator/airlines';
+export const destinationApiUrl = '/v1/navigator/destination';
+export const waiverApiUrl = '/v1/navigator/waiver';

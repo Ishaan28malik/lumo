@@ -1,0 +1,51 @@
+[{
+    "city": "Pittsburgh",
+    "iata": "PIT",
+    "name": "Pittsburgh Intl"
+},
+{
+    "city": "Amsterdam",
+    "iata": "AMS",
+    "name": "Schiphol"
+},
+{
+    "city": "Santiago",
+    "iata": "SCL",
+    "name": "Arturo Merino Benitez Intl"
+},
+{
+    "city": "Montreal",
+    "iata": "YUL",
+    "name": "Pierre Elliott Trudeau Intl"
+},{
+    "city": "Toronto",
+    "iata": "YTZ",
+    "name": "City Centre"
+},
+{
+    "city": "Oslo",
+    "iata": "OSL",
+    "name": "Gardermoen"
+},
+{
+    "city": "Chicago",
+    "iata": "ORD",
+    "name": "Chicago O'Hare Intl"
+},
+{
+    "city": "Riyadh",
+    "iata": "RUH",
+    "name": "King Khaled Intl"
+},
+{
+    "city": "Beirut",
+    "iata": "BEY",
+    "name": "Rafic Hariri Intl"
+},
+{
+    "city": "Concepcion",
+    "iata": "CCP",
+    "name": "Carriel Sur Intl"
+}
+
+]

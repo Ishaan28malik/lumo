@@ -1,0 +1,99 @@
+{
+    "travelAdvisory": [ {
+        "id": "kjdfkdjfdkf",
+        "issued_by": "US Department of State 🇺🇸",
+        "advisory": "Australia - Level 1: Exercise Normal Precautions",
+        "url": "http://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/australia-travel-advisory.html",
+        "scope": "country",
+        "last_updated": "2024-07-25T00:45:37Z",
+        "type": "waiver"
+      },
+      {
+        "id": "kdjfskjdflksd",
+        "issued_by": "Government of Canada 🇨🇦",
+        "advisory": "Australia - Exercise normal security precautions",
+        "url": "https://travel.gc.ca/destinations/australia",
+        "scope": "country",
+        "last_updated": "2024-07-25T00:45:37Z",
+        "type": "weather"
+      }],
+    "flightDetails": {
+        "flight": {
+          "id": "20240509AA123BLRDXB",
+          "airline": {
+            "code": "EK",
+            "name": "Emirates"
+          },
+          "operating_airline": {
+            "code": "AA",
+            "name": "American Airlines"
+          },
+          "number": 123,
+          "aircraft_type": {
+            "code": "388",
+            "description": "A380"
+          },
+          "departure": {
+            "code": "BLR",
+            "name": "Kempegowda Intl",
+            "city": "Bengaluru",
+            "coordinates": {
+              "latitude": 13.1988888888888,
+              "longitude": 77.7055555555555
+            }
+          },
+          "arrival": {
+            "code": "DXB",
+            "name": "Dubai International",
+            "city": "Dubai",
+            "coordinates": {
+              "latitude": 25.2527777777777,
+              "longitude": 55.3644444444444
+            }
+          },
+          "previousFlight":{
+            "tailNumber":"N78764",
+
+            "id":"20246709AA123DXBBLR"
+          }
+        },
+        "prediction": {
+          "risk": {
+            "score": 9.2,
+            "level": "SEVERE"
+          },
+          "probability": [0.3, 0.1, 0.4, 0.2],
+          "reason": "Flight may be delayed by a delayed inbound flight"
+        },
+        "connecting_to": {
+          "id": "20240509LH123DXBFRA",
+          "connection_time": {
+            "scheduled": 180,
+            "minimum": 120,
+            "latest": 29
+          },
+          "probability_misconnect": 0.98
+        },
+        "status": {
+          "cancelled": false,
+          "diverted": false,
+          "text": "Delayed",
+          "departure": {
+            "scheduled": "2024-05-09T08:09:00+05:30",
+            "latest": "2024-05-09T09:09:00+05:30",
+            "delay": 123,
+            "terminal": "T1",
+            "gate": "7"
+          },
+          "arrival": {
+            "scheduled": "2024-05-09T11:09:00+05:30",
+            "latest": "2024-05-09T12:09:00+05:30",
+            "delay": -12,
+            "terminal": "T3",
+            "gate": "7",
+            "baggage": "B6"
+          }
+        }
+      }
+
+}

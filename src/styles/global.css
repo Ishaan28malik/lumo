@@ -1,0 +1,80 @@
+/*global.css*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Roboto, sans-serif;
+  }
+}
+@layer utilities {
+  body {
+    @apply tw-bg-gray-100;
+  }
+}
+
+/* agGrid styling */
+.ag-theme-alpine {
+  --ag-cell-horizontal-padding: 8px;
+}
+.ag-theme-alpine .ag-cell-value {
+  /* text-align: center; */
+}
+.ag-theme-alpine .ag-cell-wrapper {
+  min-height: 100%;
+}
+
+.ag-theme-alpine {
+  --ag-odd-row-background-color: #eee;
+}
+.ag-theme-alpine .ag-row-odd {
+  background-color: var(--ag-odd-row-background-color);
+}
+
+.ag-cell.ag-cell-last-left-pinned:not(.ag-cell-range-right):not(
+    .ag-cell-range-single-cell
+  ) {
+  border-right: 2px dashed #d1d5db;
+}
+.ag-pinned-left-header {
+  border-right: none;
+}
+
+.ag-horizontal-left-spacer,
+.ag-horizontal-right-spacer {
+  overflow-x: hidden;
+}
+
+.ag-body-vertical-scroll-hidden .ag-body-vertical-scroll {
+  display: none;
+}
+
+/* Ensure consistent Markdown styling across all browsers by enforcing a light theme.
+   This prevents the browser's dark mode or system theme from altering the default appearance. */
+.markdown-body {
+  background-color: white !important;
+  color: black !important;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #f6f8fa !important;
+  color: black !important;
+}
+
+.markdown-body th {
+  background-color: white !important;
+  color: black !important;
+}
+
+.markdown-body tr:nth-child(even) {
+  background-color: #f6f8fa !important;
+  color: black !important;
+}
+
+.markdown-body tr:nth-child(odd) {
+  background-color: white !important;
+  color: black !important;
+}

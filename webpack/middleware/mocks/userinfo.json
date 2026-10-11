@@ -1,0 +1,115 @@
+{
+  "uid": "d1f73d08-d33b-4698-8501-4e97f725fa9b",
+  "name": "First Middle Long Full Name Last",
+  "preferred_name": "Nick",
+  "email": "some@example.com",
+  "teams": [
+    {
+      "uid": "1d5fbb01-0329-48bb-a102-2bcacb47a34c",
+      "name": "Indigo Airlines",
+      "home": {
+        "path": ".tarams",
+        "customization": {
+          "logo": "https://www.goindigo.in/content/dam/s6web/in/en/assets/logo/IndiGo_logo_2x.png",
+          "primary": "#8A4BD8"
+        }
+      },
+      "orgs": [
+        {
+          "path": ".tarams",
+          "name": "Indigo"
+        },
+        {
+          "path": ".tarams.apac",
+          "name": "Indigo Asia Pac"
+        },
+        {
+          "path": ".tarams.emea",
+          "name": "Indigo EMEA"
+        },
+        {
+          "path": ".tarams.na",
+          "name": "Indigo North America"
+        },
+        {
+          "path": ".tarams.apac.india",
+          "name": "Indigo India"
+        },
+        {
+          "path": ".tarams.apac.china",
+          "name": "Indigo China"
+        },
+        {
+          "path": ".tarams.apac.india.blr",
+          "name": "Indigo India (Bengaluru)"
+        },
+        {
+          "path": ".tarams.apac.india.maa",
+          "name": "Indigo India (Chennai)"
+        }
+      ]
+    },
+    {
+      "uid": "fa2f9d1e-2218-4107-bfd3-d1e8dd5ee02c",
+      "name": "Vistara recruiting",
+      "home": {
+        "path": ".lumo.hr",
+        "customization": {
+          "logo": "https://www.airvistara.com/content/dam/airvistara/global/common/images/logo/logo.png",
+          "primary": "#FF4C35"
+        }
+      },
+      "orgs": [
+        {
+          "path": ".lumo.hr",
+          "name": "Vistara HR"
+        },
+        {
+          "path": ".lumo.hr.north-america",
+          "name": "Vistara HR - North America"
+        },
+        {
+          "path": ".lumo.hr.south-america",
+          "name": "Vistara HR - South America"
+        },
+        {
+          "path": ".lumo.hr.north-america.us",
+          "name": "Vistara HR - USA"
+        },
+        {
+          "path": ".lumo.hr.north-america.ca",
+          "name": "Vistara HR - Canada"
+        }
+      ]
+    },
+    {
+      "uid": "fa2f9d1e-2218-4107-bfd3-d1e8dd5ee011",
+      "name": "HR",
+      "home": {
+        "path": ".uae",
+        "customization": {
+          "logo": "https://www.mofa.gov.ae/Assets/images/logo.png",
+          "primary": "#FF4C35"
+        }
+      },
+      "orgs": []
+    },
+    {
+      "uid": "fa2f9d1e-2218-4107-bfd3-d1e8dd5ee091",
+      "name": "IT Department",
+      "home": {
+        "path": ".ba",
+        "customization": {
+          "logo": "https://tbcdn.talentbrew.com/company/22348/v2_0/img/theme/ba-footer-logo.svg",
+          "primary": "#FF4C35"
+        }
+      },
+      "orgs": [
+        {
+          "path": ".apple.inc",
+          "name": "Apple Inc"
+        }
+      ]
+    }
+  ]
+}
